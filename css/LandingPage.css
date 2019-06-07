@@ -13,6 +13,34 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 576px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: column;
+    }
+}
+
+#bodyBackground- {
+    outline-width: 0px;
+    outline-color: rgba(0, 0, 0, 1);
+    outline-style: solid;
+    min-height: 50px;
+    height: 782px;
+    max-width: 100%;
+    width: 100%;
+    left: 0px;
+    top: 30px;
+    z-index: 7;
+    outline-offset: 0px;
+    position: absolute;
+    background-color: rgba(240, 241, 245, 1);
+    opacity: .5;
+    /* background-image: url(https://storage.googleapis.com/app-pushsend-com/2019/6/4/d62156af127749d148c4e2315db3db19c2ae9c04.jpeg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 16px;
+    font-family: Helvetica
 }
 
 #loginButton {
@@ -44,6 +72,29 @@
     justify-content: center;
     position: absolute;
     font-family: Helvetica
+}
+
+@media screen and (max-width: 576px) {
+    #bodyBackground- {
+        outline-width: 0px;
+        outline-color: rgba(0, 0, 0, 1);
+        outline-style: solid;
+        min-height: 50px;
+        height: 693px;
+        max-width: 100%;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        z-index: 7;
+        outline-offset: 0px;
+        position: absolute;
+        /* background-image: url(https://storage.googleapis.com/app-pushsend-com/2019/6/4/d62156af127749d148c4e2315db3db19c2ae9c04.jpeg);
+      background-size: cover; */
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 16px;
+        font-family: Helvetica
+    }
 }
 
 @media screen and (max-width: 576px) {
