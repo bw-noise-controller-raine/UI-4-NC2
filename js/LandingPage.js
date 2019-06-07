@@ -10,6 +10,7 @@ nav.forEach(function(nav) {
 
 
 
+
 function isUndefined(value) {
     return value === undefined || value === 'undefined';
 }
@@ -20,8 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Footer position logic
     var footer = document.querySelector('.landing-page-footer');
     if (footer) {
-        footer.style.top = document.body.querySelector('.nano-content').scrollHeight + 'px';
+        footer.style.top = document.body.querySelector('.nano-content').scrollHeight;
+
     }
+    $(".nano").bind("scrollend", function(e) {
+        console.log("current HTMLDivElement", e.currentTarget);
+    });
 })
 
 // Content scale logic

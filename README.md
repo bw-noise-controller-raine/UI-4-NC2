@@ -62,9 +62,6 @@ Lorem ipsum can be used to fill in your content on your pages. Links listed belo
 - Group wide demos will take place in your PM groups - PMs will use the project rubric to assign a score.
 - Sprint Retrospective to happen before students break for the week.
 
-
-
-
 <!-- Expert -->
 []  Student's work demonstrates that all MVP features were built and the student went above and beyond the project.
 
