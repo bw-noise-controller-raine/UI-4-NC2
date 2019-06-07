@@ -1,0 +1,7 @@
+    body {
+        background-image: url("../images/tony-reid-633640-unsplash.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }

@@ -1,0 +1,40 @@
+#meangreen {
+  text-align: left;
+  border-width: 0px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 0%;
+  background-size: cover;
+  left: 539px;
+  top: 1835px;
+  z-index: 29;
+  width: 345px;
+  height: 260px;
+  position: absolute;
+  background-image: url(https://storage.googleapis.com/app-pushsend-com/2019/6/4/4781b31cef7a26904a9e6f9628a0eb45c01ca38e.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 16px;
+  font-family: Helvetica;
+}
+@media screen and (max-width: 576px) {
+  #meangreen .mobile-style #meangreen {
+    text-align: left;
+    border-width: 0px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 0%;
+    background-size: cover;
+    left: 27.5px;
+    top: 3117px;
+    z-index: 29;
+    width: 345px;
+    height: 260px;
+    position: absolute;
+    background-image: url(https://storage.googleapis.com/app-pushsend-com/2019/6/4/4781b31cef7a26904a9e6f9628a0eb45c01ca38e.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 16px;
+    font-family: Helvetica;
+  }
+}
